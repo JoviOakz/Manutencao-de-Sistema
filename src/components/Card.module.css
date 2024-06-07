@@ -4,3 +4,17 @@
     text-align: center;
     padding: 15px;
 }
+
+.greenBall {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: green;
+}
+
+.redBall {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: red;
+}
