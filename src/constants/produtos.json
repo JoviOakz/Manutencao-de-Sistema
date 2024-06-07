@@ -1,16 +1,47 @@
 [
   {
     "id": 1,
-    "name": "Perfume",
-    "desc": "Miguel Rousseouf",
-    "value": "100.00",
-    "image": "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/volarium/catalog/produtos/volarium/perfume/perfume-feminino/perfume-feminino-ch-tradicional-importado-original.jpg"
+    "name": "REI CHIQUITA PANTUFA",
+    "desc": "FOFA E TE TRÁS CONFORTO PARA OS PÉS",
+    "value": "220.39",
+    "image": "https://images.tcdn.com.br/img/img_prod/460977/pantufa_chinelo_3d_rei_ayanami_rei_ayanami_rei_chiquita_neon_genesis_evangelion_anime_manga_tamanho__115105_1_a032c1833253426753d1ebd6a4daca15.jpg",
+    "category": "CONFORTO",
+    "status": true
   },
   {
     "id": 2,
-    "name": "Colar",
-    "desc": "Jand Karno em perolas",
-    "value": "2200.00",
-    "image": "https://cdn.awsli.com.br/600x450/1537/1537341/produto/152389745/01e29e7fcc.jpg"
+    "name": "REI CHIQUITA MONTADA NO POCHITA",
+    "desc": "REI CHIQUITA E SEU MELHOR AMIGO POCHITA",
+    "value": "22200.20",
+    "image": "https://img.quizur.com/f/img6371b47f138617.31644977.jpg?lastEdited=1668396163",
+    "category": "POCHI",
+    "status": false
+  },
+  {
+    "id": 3,
+    "name": "REI CHIQUITA CAFÉ",
+    "desc": "CAFÉ, ACEITAS?",
+    "value": "5500.78",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGiN0VHAshqrj940pRw1NzM1rs2I6WbHOQecrBeumd-pdA92t3xkq3BCb14CsAmczn_jY&usqp=CAU",
+    "category": "CAFEINA",
+    "status": true
+  },
+  {
+    "id": 4,
+    "name": "REI CHIQUITA APAIXONADA",
+    "desc": "QUE NAMORA COMNINGO?",
+    "value": "300.30",
+    "image": "https://i.pinimg.com/170x/c9/59/d4/c959d4a836dc52ca65b9b8a725756538.jpg",
+    "category": "AMOR",
+    "status": false
+  },
+  {
+    "id": 5,
+    "name": "REI CHIQUITA BURGUER KING",
+    "desc": "FILHA DO MARTIN BURGUER KING",
+    "value": "624.90",
+    "image": "https://ih1.redbubble.net/image.3083508978.9595/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+    "category": "BURGUI",
+    "status": true
   }
 ]

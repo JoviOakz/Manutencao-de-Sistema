@@ -31,15 +31,15 @@ function App() {
       <button onClick={() => setShow("api")}>API</button>
       <button onClick={() => setShow("map")}>Mapa</button>
     </div>
-    <div  className={style.wrapPage}>
+    <div className={style.wrapPage}>
       <h1>Exercícios de manutenção</h1>
      {show === "prod" &&
         <>
           <h2>Showroom de produtos</h2>
-            <div>
+            <div className={style.wrapCardProducts}>
             {produtos.map((item) => {
               return(
-                <Card name={item.name} desc={item.desc} value={item.value} image={item.image} key={item.id}/>
+                <Card name={item.name} desc={item.desc} value={item.value} image={item.image} key={item.id} category={item.category} status={item.status}/>
               )
              })}
             </div>
@@ -51,7 +51,7 @@ function App() {
             <div>
                <input type="text" placeholder="1/43" value={page} onChange={(event) => setPage(event.target.value)}/>
             </div>
-            <div>
+            <div className={style.wrapCardProducts}>
             {data.map((item) => { 
              return(
               <div key={item.id}>
