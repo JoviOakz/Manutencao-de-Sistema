@@ -7,7 +7,7 @@ import { ProductsPage } from './pages/ProductsPage.jsx'
 import { ApiPage } from './pages/ApiPage.jsx'
 import { MapPage } from './pages/MapPage.jsx'
 import { GraphicPage } from './pages/GraphicPage.jsx'
-
+import { Analytics } from "@vercel/analytics/react"
 
 const router = createBrowserRouter([
   {
@@ -34,6 +34,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Analytics />
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
